@@ -164,7 +164,7 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
       eyeColor["blue-gray"].push(starWarsCharacters[i]);
       break;
     default:
-      console.log(`Colore: ${starWarsCharacters[i].eye_color}`);
+      console.log(`Colore occhi: ${starWarsCharacters[i].eye_color}`);
   }
 }
 
