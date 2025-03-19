@@ -120,7 +120,8 @@ console.log(charactersNames);
 /* ESERCIZIO 3
   Seguendo i passaggi precedenti crea un nuovo array chiamato "femaleCharacters" e inserisci al suo interno tutti gli oggetti femminili.
 */
-let femaleCharacters = [];
+
+/*let femaleCharacters = [];
 for (let i = 0; i < starWarsCharacters.length; i++) {
   if (starWarsCharacters[i].gender === "female") {
     femaleCharacters.push(starWarsCharacters.gender[i]);
@@ -193,8 +194,6 @@ console.log(crewMass);
 
   Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 */
-
-let crewMass = 957;
 
 if (crewMass < 500) {
   console.log("Ship is under loaded");
